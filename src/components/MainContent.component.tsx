@@ -1,9 +1,11 @@
 import { ReactNode } from "react";
 
-interface Props {}
+interface Props {
+  children?: ReactNode[] | ReactNode;
+}
 
-function MainContent(props: Props): ReactNode {
-  return <></>;
+function MainContent({ children }: Props): ReactNode {
+  return <>{children}</>;
 }
 
 export default MainContent;
