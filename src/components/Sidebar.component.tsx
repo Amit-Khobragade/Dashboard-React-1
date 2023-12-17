@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import { Link, useLocation } from "react-router-dom";
-import GlobalVars from "../globals/global.variables";
+import GlobalVars from "globals/global.variables";
 
 interface Props {}
 
