@@ -1,6 +1,13 @@
 const GlobalVars = {
   user: {
     name: "Riya",
+    avgScores: {
+      overall: 78,
+      maths: 65,
+      english: 86,
+      reasoning: 81,
+      computer: 92,
+    },
   },
   routes: {
     pages: {

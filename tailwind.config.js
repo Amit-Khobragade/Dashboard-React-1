@@ -12,6 +12,7 @@ export default {
         1: "#481D24",
         2: "#CBD1D1",
       },
+      black: "#000",
     },
     fontFamily: {
       dm: ["DM Sans", fontFamily.sans],
